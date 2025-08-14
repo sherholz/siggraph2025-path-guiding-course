@@ -98,6 +98,17 @@
                     </a>
                   </span>
 
+                  <span class="link-block">
+                      <a href="https://doi.org/10.1145/3721241.3733994" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>ACM (official)</span>
+                    </a>
+                  </span>
+
+
                   <!-- Github link -->
 <!--                  <span class="link-block">
                     <a href="https://github.com/YOUR REPO HERE" target="_blank"
@@ -307,7 +318,26 @@ The last chapter presents Chaos's recent advancements to their specialized guidi
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>TBA</code></pre>
+      <pre><code>
+@inproceedings{SiggraphCourse2025pathguiding,
+  author = {Herholz, Sebastian and Sik, Martin and Reichardt, Lea and Manzi, Marco},
+  title = {Path Guiding in Production and Recent Advancements},
+  year = {2025},
+  isbn = {9798400715433},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3721241.3733994},
+  doi = {10.1145/3721241.3733994},
+  abstract = {Over the last decade, advanced data-driven sampling algorithms, such as path guiding, have made their way from the scientific realm into production renderers [Vorba et al. 2019]. These algorithms enable the rendering of challenging lighting effects (e.g., complex indirect illumination, caustics, volumetric multi-scattering, and occluded direct illumination from multiple lights), which are crucial for generating high-fidelity images. The fact that these algorithms primarily focus on optimizing local importance sampling decisions makes it possible to integrate them into a path tracer, the de facto standard rendering algorithm used in production today ([Fascione et al. 2019],[Jakob et al. 2019]). The theory behind these algorithms has been presented and discussed on various occasions (e.g., in presentations or research papers), and their practical applications in production have been explored in the previous course on path guiding in production. Nevertheless, the implementation details or challenges associated with integrating them into a production render are usually unknown or not publicly discussed. This course aims to provide a deeper understanding of how specific guiding algorithms are integrated into and utilized in various production renderers, including Blender’s Cycles, Chaos’s VRay and Corona, SideFX’s Karma, and Disney Animation’s Hyperion [Burley et al. 2018]. The presented algorithms and integrations can be categorized into two main groups: the first aims to guide the entire sampling process by utilizing information about the total light transport of the scene, and the second focuses on guiding specific effects, such as caustics.},
+  booktitle = {Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Courses},
+  articleno = {14},
+  numpages = {5},
+  keywords = {rendering, Monte Carlo, light transport, path guiding},
+  location = {
+  },
+  series = {SIGGRAPH Courses '25}
+}
+      </code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
